@@ -1,0 +1,74 @@
+.main-Box {
+    -fx-background-image: url(../img/background-2.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 8px;
+}
+
+.button-close-base {
+    -fx-background-color: #00000000;
+    -fx-border-color: #00000000;
+    -fx-background-radius: 0px 8px 0px 0px;
+    -fx-background-size: 30px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.button-close-normal {
+    -fx-background-image: url(../img/closeIcon-normal.png);
+}
+
+.button-close-mouse-on {
+    -fx-background-image: url(../img/closeIcon-mouse-on.png);
+}
+
+.button-close-mouse-pressed {
+    -fx-background-image: url(../img/closeIcon-mouse-pressed.png);
+}
+
+.button-minimize-base {
+    -fx-background-color: #00000000;
+    -fx-border-color: #00000000;
+    -fx-background-radius: 0px 8px 0px 0px;
+    -fx-background-size: 30px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.button-minimize-normal {
+    -fx-background-image: url(../img/minimizeIcon-normal.png);
+}
+
+.button-minimize-mouse-on {
+    -fx-background-image: url(../img/minimizeIcon-mouse-on.png);
+}
+
+.button-minimize-mouse-pressed {
+    -fx-background-image: url(../img/minimizeIcon-mouse-pressed.png);
+}
+
+.button-login-base {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-font-size: 16;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 8px;
+    -fx-border-width: 3px;
+    -fx-border-radius: 8px;
+}
+
+.button-login-normal {
+    -fx-background-color: rgba(104, 169, 196, 0.82);
+    -fx-border-color: rgba(104, 169, 196, 0.82);
+}
+
+.button-login-mouse-on {
+    -fx-background-color: rgba(104, 169, 196, 0.82);
+    -fx-border-color: rgba(196, 223, 236, 0.82);
+}
+
+.button-login-mouse-pressed {
+    -fx-background-color: rgba(104, 169, 196, 0.82);
+    -fx-border-color: rgba(196, 223, 236, 0.82);
+    -fx-effect: dropshadow(two-pass-box, #66ccff, 1, 0.5, 0, 0);
+}

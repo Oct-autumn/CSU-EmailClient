@@ -1,0 +1,16 @@
+.main-HBox-base {
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 2px;
+}
+
+.main-HBox-normal {
+    -fx-background-color: #DDDDDD;
+}
+
+.main-HBox-mouse-on {
+    -fx-background-color: #FFFFFF;
+}
+
+.main-HBox-mouse-pressed {
+    -fx-background-color: #BBBBBB;
+}
